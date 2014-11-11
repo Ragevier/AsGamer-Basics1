@@ -5,13 +5,12 @@ package com.asgamer.basics1
 	
 		public class Engine extends MovieClip
 	{
-		
-		
+			
+			
+			
 		public function Engine()
 		{	
-			
-			var ourShip:Ship = new Ship(stage);
-			
+			var ourShip:Ship = new Ship(stage)			
 			stage.addChild(ourShip);
 		
 		ourShip.x = stage.stageWidth / 2;
